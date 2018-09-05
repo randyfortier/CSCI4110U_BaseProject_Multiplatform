@@ -86,7 +86,7 @@ int main(int argc, char** argv) {
     glutInit(&argc, argv);
     glutInitDisplayMode(GLUT_RGB | GLUT_DOUBLE);
     glutInitWindowSize(800, 600);
-    glutCreateWindow("CSCI 3090u Base OpenGL");
+    glutCreateWindow("CSCI 4110u Base OpenGL");
     glutIdleFunc(&update);
     glutDisplayFunc(&render);
     glutReshapeFunc(&reshape);
